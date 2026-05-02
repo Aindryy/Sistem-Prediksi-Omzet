@@ -1,0 +1,81 @@
+/* Font Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Header dengan logo kiri & kanan */
+header {
+    background: #198754;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Judul header */
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Logo kiri & kanan */
+header img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 10px; /* opsional */
+}
+
+/* Navbar */
+nav {
+    background: #145c32;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #28a745;
+}
+
+nav a.active {
+    background: #ffc107;
+    color: black;
+    font-weight: bold;
+}
+
+/* Konten */
+section {
+    padding: 25px;
+    line-height: 1.6;
+}
+/* Button Admin */
+.btn-admin {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc107; /* kuning sesuai warna menu aktif */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.btn-admin:hover {
+    background-color: #e0a800; /* warna lebih gelap saat hover */
+}
