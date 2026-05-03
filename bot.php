@@ -1,7 +1,7 @@
 <?php
 // --- 1. PENGATURAN API & DATABASE ---
-$token_telegram = "8439498294:AAEsIbETNeO3T7PCfpl-22iFzHL2M4B_E-4"; 
-$api_key_groq   = "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"; 
+$token_telegram = ""; 
+$api_key_groq   = ""; 
 $nama_database  = "dispar"; 
 
 // --- 2. TANGKAP PESAN DARI TELEGRAM ---
